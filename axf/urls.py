@@ -21,5 +21,5 @@ from AXF import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', views.home),
-    url(r'^axf/', include("AXF.urls"))
+    url(r'^axf/', include("AXF.urls", namespace='axf'))
 ]
