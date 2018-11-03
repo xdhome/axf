@@ -10,6 +10,10 @@ body {
 	background: #eee;
 }
 
+a{
+	color: black;
+}
+
 header {
 	width: 100%;
 	/* document.documentElement.style.fontSize = innerWidth / 320 * 16 + "px";
@@ -66,6 +70,7 @@ footer a {
 	width: 25%!important;
 	text-align: center;
 	overflow: hidden!important;
+	color: gray;
 }
 
 footer dl {
